@@ -1,0 +1,50 @@
+{
+    "name":  "shutdown-timer",
+    "logo":  "⏰",
+    "exe":  "ShutdownTimer.exe",
+    "desc":  "Free, open-source shutdown scheduler for Windows — timed shutdown, restart, sleep and lock with cancel window. 100 MB portable, MIT.",
+    "topics":  [
+                   "shutdown-timer",
+                   "auto-shutdown",
+                   "schedule-shutdown",
+                   "power-management",
+                   "sleep-timer",
+                   "automation",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "wise-auto-shutdown-alternative",
+                   "restart-timer",
+                   "countdown",
+                   "tray",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **One-shot timers** — shutdown, restart, sleep, hibernate or lock after 15 minutes or any custom countdown",
+                     "✅ **Daily schedules** — weekday and weekend rules for shutdown at 23:30 without Task Scheduler scripting",
+                     "✅ **Cancel window** — a configurable 60-second countdown popup with a big cancel button before any action fires",
+                     "✅ **Idle trigger** — run the action only when CPU and input have been quiet for N minutes, for render farms",
+                     "✅ **Tray countdown** — remaining time lives in the tray tooltip so you never wonder when the machine dies",
+                     "✅ **Command-line mode** — same binary accepts flags for shortcuts and scripts",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **shutdown-timer** | Wise Auto Shutdown | Task Scheduler | Shutdown Timer |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free | Built-in | Free |",
+                    "| Open source | **Yes** | No | No | No |",
+                    "| Idle-based trigger | **Yes** | No | Scripted | No |",
+                    "| Cancel countdown popup | **Yes** | Basic | No | No |",
+                    "| Tray countdown display | **Yes** | Yes | No | No |",
+                    "| Portable, no install | **Yes, 100 MB** | Installer | With OS | Zip |"
+                ],
+    "faqQ":  "how to schedule automatic shutdown on Windows 10 and 11?",
+    "faqA":  "The built-in way is a shutdown dash-s slash-t command or a Task Scheduler chain that is easy to misconfigure and hard to cancel. shutdown-timer gives the same power with a visible countdown and a cancel window, plus idle-triggered actions Task Scheduler cannot do natively. It is a 100 MB portable exe, MIT, offline, with no telemetry.",
+    "s1":  "Dark main window (#12141A, moonlit blue #93C5FD): action selector with five icons, countdown input 45 minutes, big Start Timer button.",
+    "s2":  "Schedule tab: weekday and weekend rows, time pickers at 23:30 and 01:00, exception list for video calls, enabled toggles green.",
+    "s3":  "Firing countdown: full-screen dimmed popup, 60 s ring animation, Cancel This Shutdown button focused, tray mirroring the counter."
+}
